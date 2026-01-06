@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time Stats Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Real-Time Stats Tracker</h1>
+
+  <div class="stats">
+    <div class="card">
+      <h3>Active Users</h3>
+      <p id="users">0</p>
+    </div>
+    <div class="card">
+      <h3>Requests / Min</h3>
+      <p id="requests">0</p>
+    </div>
+    <div class="card">
+      <h3>Errors</h3>
+      <p id="errors">0</p>
+    </div>
+  </div>
+
+  <button onclick="reset()">Reset Stats</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
